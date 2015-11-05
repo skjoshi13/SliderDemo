@@ -1,0 +1,51 @@
+@CHARSET "ISO-8859-1";
+#mainContainer {
+	margin-top: 150px;
+	margin-left: 450px;
+	height: 370px;
+	width: 400px;
+	border: 1px solid black;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.slider {
+	margin-top: 30px;
+	width: 100%;
+	background-color: green;
+	height: 30px;
+	border: 1px solid white;
+	position: relative;
+	padding-top: 15px;
+	
+}
+
+#controls {
+	margin-top: 20px;
+	margin-left: 25px;
+}
+
+ #sliderSize1{
+ position : absolute;	
+	align : center;
+	width: 100%;
+	z-index:2;
+	top:255px;
+	left:650px;
+}
+#sliderSize2{
+ position : absolute;	
+	align : center;
+	width: 100%;
+	z-index:2;
+	top:330px;
+	left:650px;
+}
+#sliderSize3{
+ position : absolute;	
+	align : center;
+	width: 100%;
+	z-index:2;
+	top:405px;
+	left:650px;
+} 
